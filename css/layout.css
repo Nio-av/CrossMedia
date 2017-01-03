@@ -1,0 +1,408 @@
+/*
+++*Inhalt++*
+*Generelles
+*Inhalt
+*Hintergrund
+*Gruener Banner Datum
+*Tabelle
+*/
+
+
+
+/*Reset User Agent Styles
+* {-webkit-padding-start: 0px;}
+*/
+
+/*++*Generelles++**/
+
+html, body {
+	margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #1b8037;
+ 
+}
+
+ul {
+	margin: 0;
+    padding: 0;
+    float: right;
+}
+
+* {
+font-family: 'Source Sans Pro', 'Helvetica', 'Segoe UI Light', 'Segoe UI', 'Lucida Grande', Verdana, Arial, sans-serif;
+font-size: 1.02em;
+color: #424242;
+}
+
+a{
+    color: #E6007D;
+    text-decoration: none;
+}
+
+h1, h2{
+    color: #0f8957;
+    font-family: 'Source sans Pro', sans-serif;
+}
+
+
+h1{
+    font-size: 1.3em;
+    margin-top: 15px;
+    
+}
+
+h3{
+    color: #646463;
+    margin-bottom: 2px;
+}
+
+article p{
+    margin-top: 2px;
+}
+
+
+/* Headerelemente */
+
+#handwriting{
+    display: inline;
+    float: right;
+    font-family: 'Daniel', fantasy, cursive;
+    color: #e6007d;
+    max-width: 430px;
+    margin-top: 68px;
+    text-transform: inherit;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: bold;
+    
+}
+
+#DigitaleMedien{ 
+    position: absolute;
+    top: 25px;
+    max-width: 100px;
+    font-weight: bold;
+    color: #0F8957;
+    text-decoration: none;
+    font-size: 1.3em;
+    text-transform: uppercase;
+}
+
+#header {
+    width: 100%;
+    background-color: #FCFCFC;    
+}
+
+#branding {   
+    text-align: left;
+    margin: auto;  
+    width: 100%;
+    max-width: 800px;
+    background-color: #FCFCFC;
+}    
+
+#visual-logo{
+    position: relative;
+    top: 3px;
+    margin:15px;
+    width: 75px;
+    height: 75px;
+    border: 0px;
+}
+
+
+
+/*++*Inhalt++**/
+
+#wrapper{
+    width: 100%;
+    max-width: 800px;
+    margin: 0px auto;   
+}
+
+#vertical-center{
+    position: absolute;
+    width: 100%;
+    max-width: 800px;
+    background-color: rgba(254, 254, 254, 0.7);
+    box-shadow: 1px 1px 4px #191919;
+}
+
+article{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#info-button{
+font-size: 0.9em;
+margin-left: 5px;
+font-family: initial;
+background-color: #898989;
+padding: 0px 5px;
+border: none;
+color: #FFF;
+font-weight: 600;
+}
+/*++*Hintergrund++**/
+
+#background{
+    position: absolute;
+    width: 100%;
+    bottom: -163px;
+    height: 100%;
+    background-color: lightgreen;
+    background-image: url("Background2.svg");
+    overflow: hidden;
+    z-index: 0;
+} 
+
+#raster {
+    width: 100%;
+    min-width:800px;
+    height: initial;
+}
+
+
+/*++*Gruener Banner Datum++**/
+#banner{
+    float: left;
+    height: 65px;
+    width: 360px;
+}
+
+#banner img{
+    width: 350px;
+    margin-left: -47px;
+}
+
+#banner p{
+    color: #FFF;
+    font-family: 'source sans pro', sans;
+    display: inline;
+    position: relative;
+    top: -15px;
+    margin-left: -295px;
+    font-size: 0.9em;
+}
+
+#footer-hfu-logo{
+    height: 78px;
+    width: 217px;
+    margin-top: 0px;
+    padding-top: 15px;
+    float: right;
+    padding-right: 15px;
+    margin-bottom: 15px;
+}
+
+#footer{
+    margin-top: 60px;
+    width: 100%;
+    overflow: visible;
+}
+
+/* Video responsiv 
+.js-video {
+  height: 0;
+  padding-top: 25px;
+  padding-bottom: 67.5%;
+  margin-bottom: 10px;
+  position: relative;
+  overflow: hidden;
+}
+ 
+.js-video.widescreen {
+  padding-bottom: 56.34%;
+}
+ 
+.js-video.vimeo {
+  padding-top: 0;
+}
+
+.js-video embed, .js-video iframe, .js-video object, .js-video video, {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+ 
+ (max-width: 600px){
+    #vertical-center{
+        width: 100%;
+        background-color: #C2E0C7;
+    }
+}
+
+*/
+
+
+.responsiv-video {
+    position: relative;
+    padding-bottom: 55%;
+    padding-top: 15px;
+    height: 0;
+    overflow: hidden;
+    box-shadow: 2px 1px 4px #191919;
+    margin-bottom: 20px;
+}
+
+.responsiv-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.register-button {
+ background-color: #ec619f;
+ max-width: 200px;
+ margin: auto;
+ text-align: center;
+ padding: 8px 5px 8px 5px;
+}
+
+.register-button a{
+    color: white;
+    text-decoration: none;
+}
+
+
+button{
+    background-color: #e6007d;
+    padding: 5px 40px;
+    border: none;
+    color: #FFF;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 20px;
+}
+
+
+.parallaxScrolling{
+    position:fixed;
+    width:100%; 
+	height:100%; 
+    top:0px;
+    z-index: -1;
+}
+
+
+
+@media(max-width: 750px){
+    .menu{
+        width: 100%;
+    }
+    
+    #headernav{
+        width: 100%;    
+    }
+
+    #background{
+        display: none;
+    }
+    
+    #branding{
+        width: 100%;    
+    }
+    
+    
+    #vertical-center{
+        width: 100%;        
+    }
+    
+    #wrapper{
+        width: 100%; 
+    }
+}
+
+@media(max-height: 750px) and (max-width: 750px){
+    #banner {
+        margin-top: 0px;
+    }
+}
+
+
+@media(max-width: 650px){
+    #banner{
+        width: 100%; 
+        background-color: #0F8957;
+        height: 40px;
+    }  
+        
+    #banner img{
+        display: none;   
+    }
+    
+    #banner p{
+        display: block;
+        margin-left: 0px;
+        text-align: center;
+        top: -12px;
+        overflow: auto;
+    }
+    
+    
+    #footer-hfu-logo{
+        width: 100%;
+        float: none;
+        max-width: 217px;
+        margin:auto;
+        padding-bottom: 30px;
+        padding-top: 80px;
+        padding-right: 0px;
+    }
+    
+    #footer{
+    margin-top: 80px;       
+    }
+    
+    
+}
+
+@media(max-width: 400px){
+    #handwriting{
+        display: none;
+    }
+}
+
+
+/* Tabelle */
+
+
+tabled-view { 
+  width: 100%; 
+  border-collapse: collapse; 
+}
+/* Zebra striping */
+tr:nth-of-type(odd) { 
+
+}
+td, th{
+  text-align: left; 
+  padding: 6px; 
+  border: 1px solid #ccc; 
+  
+}
+td{ 
+  font-size: 0.9em;    
+  background: rgba(255, 255, 255, 0.5); 
+
+
+}
+th{
+	display: none;
+}
+
+td h3{
+  margin-top: 3px;
+}
+td p{
+  margin-bottom: 3px;
+}
+
+
+
+
+

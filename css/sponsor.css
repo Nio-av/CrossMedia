@@ -1,0 +1,19 @@
+#footernav{
+    box-shadow: 0px 3px 4px rgba(25, 25, 25, 0.4);
+}
+
+#sponsor{
+    float: left;
+    width: 100%;
+}
+
+#sponsor p{
+    padding: 15px;
+}
+
+#sponsor img{
+    max-width: 155px;
+    width:40%;
+    float: right;
+}
+

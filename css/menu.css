@@ -1,0 +1,153 @@
+#headernav a{
+    font-weight: bold;
+}
+
+.menu a{
+    color: #FFF;
+    text-decoration: none;
+}
+
+
+/* menueelemente */
+.menu-item{
+    float: left;
+    padding-left: 15px;
+    list-style-type: none;
+    display: inline;
+    border-style: solid;
+    border-color: #E0E0E0;
+    border-width: 0px 0px 0px 2px;
+    margin-left: 15px;
+    font-size: 0.87em;
+}
+
+.current_page_item a{
+    color: #b4d69f;
+}
+
+.menu-item:first-child{
+    border-width: 0px;
+    margin-left: 0px;
+}
+
+#headernav{
+    background-color: #bbbdbf;
+    font-size: 1.2em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    overflow: auto;
+    text-decoration: none;
+}
+
+#footernav .menu{
+    float: left;
+    width: 100%;
+    line-height: 1.5em;
+    background-color: #0F8957;
+    padding: 4px 0px;
+}
+
+#footernav {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+
+
+
+
+
+
+/* CSS Menü Handy */
+@media(max-width: 410px){
+	
+    #menuebutton a{
+        text-decoration: none;
+    }
+	
+	
+	
+	#headernav {
+	    padding-top: 5px;
+        padding-bottom: 5px;
+	}
+	
+	
+	
+	#headernav ul {
+		right: 0px;
+        z-index: 1;
+	    padding: 0px;
+	    margin: 0px;
+		background-color: #BAC4BB;
+		list-style: none;
+	    float:left;   
+	}
+    /*Auswahlbutton zum aufklappen */
+    #menuebutton{
+		background-color: #0F8957;
+	}
+	
+	
+	/* Text in aufgeklapten Menue */
+	#menueelemente a {
+	    display: block;
+	    color: #424242;
+	    padding: 8px 20px;
+        height: 100%;
+	}
+    
+    
+    
+	#menueelemente:hover > div ul, #menueelemente:focus > div ul{
+        display: inherit;
+	}
+    
+    
+    
+	#menuebutton:hover, #menuebutton:focus {
+		background-color: #e6007d;
+		transition: background 0.2s ease-out 0s;
+        width: 100%;
+	}
+    
+	
+    
+    #menu-top-menue{
+        position: absolute;
+        box-shadow: 0px 10px 8px grey;
+        display: none;
+    }
+    
+    
+    #menu-top-menue li{
+        width: 100%;
+        border-style: inherit;
+        margin: 0px;
+        padding: 0px;
+        border-style: solid;
+        border-width: 1px 0px;
+        
+        
+    }
+    
+	#menu-top-menue li a:hover{
+	    background-color: #e6007d !important;
+	    transition: background 0.4s ease-out 0s;
+	}
+    
+    
+    i, .icon {
+    color: #FBFEFB !important;    
+    }  
+    
+    
+}
+
+
+/* In der Desktopansicht */
+@media(min-width: 411px){
+	#menuebutton{
+		display: none;
+	}	
+}

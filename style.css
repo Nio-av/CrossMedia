@@ -1,0 +1,14 @@
+/*
+ Theme Name: CrossMedia
+ Theme URI: http://www.nio-av.de
+ Description: Template für CrossMedia
+ Author: Nicolas Tribukait
+ Version: 0.1
+ Author URL: http://www.nio-av.de
+ */
+
+@import url(//fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic|Source+Code+Pro);
+/* Font: Daniel via http://www.dafont.com/de/daniel.font */
+@font-face { font-family: 'daniel'; src: url('PlugIns/fonts/daniel/daniel.ttf') format('truetype'); font-weight: regular}
+@font-face { font-family: 'daniel'; src: url('PlugIns/fonts/daniel/danielbd.ttf') format('truetype'); font-weight: bold;}
+@font-face { font-family: 'daniel black'; src: url('PlugIns/fonts/daniel/danielbk.ttf ') format('truetype');}
