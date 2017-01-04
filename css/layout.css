@@ -71,11 +71,13 @@ article p{
 
 /* Headerelemente */
 
-#handwriting{
+#SubHeadline{
     
-    font-family: 'Daniel', fantasy, cursive;
-    
+    font-family: 'Alegreya Sans SC', 'Helvetica light', 'Segoe UI Light', 'Segoe UI', 'Lucida Grande', 'Verdana', 'Arial', sans-serif;
+    color: #57585a;
     text-align: right;
+    border-color: var(--main-menu-color);
+    border-bottom-style: solid;
     
 }
 
@@ -84,12 +86,12 @@ article p{
     font-family: 'Kingthings_Calligraphica_2-webfont', 'Luminari', 'serif';
     width: 100%;
     float: right;
-    border-bottom-color: hotpink;
-    border-bottom-width: 4px;
+    border-color: var(--main-menu-color);
     border-top-style: double;
     border-bottom-style: solid;
-
+    color: #57585a;
 }
+
 
 #header {
     width: 100%;
@@ -335,7 +337,7 @@ button{
 }
 
 @media(max-width: 400px){
-    #handwriting{
+    #SubHeadline{
         display: none;
     }
 }

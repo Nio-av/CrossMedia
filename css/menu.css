@@ -2,6 +2,9 @@
   --main-menu-color: #bbbdbf;
 }
 
+nav a{
+    font-family: 'Alegreya Sans SC', 'Helvetica light', 'Segoe UI Light', 'Segoe UI', 'Lucida Grande', 'Verdana', 'Arial', sans-serif;
+}
 
 
 #headernav a{
@@ -38,8 +41,8 @@
 #headernav{
     background-color: var(--main-menu-color);
     font-size: 1.2em;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     overflow: auto;
     text-decoration: none;
 }

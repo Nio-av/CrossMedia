@@ -106,7 +106,7 @@ console.log("Wie ist das wetter außerhalb von FuWa so? Wir sind im Schnee gefan
                             <?php bloginfo('name') ?>
                         </a>
                     </a>
-                    <h2 id="handwriting"><?php echo(bloginfo('description')); ?></h2>
+                    <h2 id="SubHeadline"><?php echo(bloginfo('description')); ?></h2>
                 
             
 
