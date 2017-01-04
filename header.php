@@ -112,7 +112,7 @@ console.log("Wie ist das wetter außerhalb von FuWa so? Wir sind im Schnee gefan
             
                 
                     <a href="<?php bloginfo('url'); ?>">
-                        <img id="visual-logo" src="<?php echo(get_template_directory_uri()); ?>/round25.png" alt="<?php bloginfo('name'); ?>">
+                        
                         <a id="PageTitle" href="<?php bloginfo('url'); ?>">
                             <?php bloginfo('name') ?>
                         </a>

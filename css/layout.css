@@ -73,28 +73,17 @@ article p{
 /* Headerelemente */
 
 #handwriting{
-    display: inline;
-    float: right;
+    
     font-family: 'Daniel', fantasy, cursive;
-    color: #e6007d;
-    max-width: 430px;
-    margin-top: 68px;
-    text-transform: inherit;
-    text-align: center;
-    font-size: 1.1em;
-    font-weight: bold;
+    
+    text-align: right;
     
 }
 
 #PageTitle{ 
-    position: absolute;
-    top: 25px;
-    max-width: 100px;
-    font-weight: bold;
-    color: #0F8957;
-    text-decoration: none;
-    font-size: 1.3em;
+    font-size: 20vh;
     font-family: 'Kingthings_Calligraphica_2-webfont', 'Luminari', 'serif';
+
 }
 
 #header {
@@ -103,21 +92,13 @@ article p{
 }
 
 #branding {   
-    text-align: left;
+    text-align: right;
     margin: auto;  
     width: 100%;
     max-width: 800px;
     background-color: #FCFCFC;
 }    
 
-#visual-logo{
-    position: relative;
-    top: 3px;
-    margin:15px;
-    width: 75px;
-    height: 75px;
-    border: 0px;
-}
 
 
 
