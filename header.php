@@ -85,18 +85,7 @@ console.log("Wie ist das wetter außerhalb von FuWa so? Wir sind im Schnee gefan
 
 
 
-<script type="text/javascript">
-    $(document).ready(function(){
-        $(window).bind('scroll',function(e){
-            parallaxScroll();
-        });
-
-        function parallaxScroll(){
-            var scrolledY = $(window).scrollTop();
-
-            $('.parallaxScrolling').css('top','-'+((scrolledY*0.4))+'px');
-        }
-});   
+  
     
 </script>    
     
