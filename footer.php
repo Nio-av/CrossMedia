@@ -36,21 +36,18 @@
             </div><!-- ende banner -->            
             
             
-            <div id="footer-hfu-logo">
-                <a href="//hs-furtwangen.de" target="_blank">
-                    <img src="<?php echo(get_template_directory_uri()); ?>/Logo_HFU.svg">
-                </a>
-            </div>
 
             <nav id="footernav">
                     <?php wp_nav_menu( array('theme_location' => 'footer-menu' )); ?>
             </nav>
             <aside id="sponsor">
                 <p>
-                Entstanden an der Hochschule Offenburg
+                Entstanden an der Hochschule Offenburg.
                 
-                
-                <img src="<?php echo(get_template_directory_uri()); ?>/HS_Logo_schwarz.svg" alt="HSO"></img>
+                    <a href="//hs-offenburg.de" target="_blank">
+                        <img src="<?php echo(get_template_directory_uri()); ?>/HS_Logo_schwarz.svg" alt="HSO"></img>
+                    </a>
+                </p>
             </aside>
             
         </div><!-- ende footer -->
