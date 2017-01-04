@@ -19,7 +19,6 @@ html, body {
 	margin: 0;
     padding: 0;
     overflow-x: hidden;
-    background-color: #a4a7aa;
 }
 
 
@@ -83,12 +82,17 @@ article p{
 #PageTitle{ 
     font-size: 20vh;
     font-family: 'Kingthings_Calligraphica_2-webfont', 'Luminari', 'serif';
+    width: 100%;
+    float: right;
+    border-bottom-color: hotpink;
+    border-bottom-width: 4px;
+    border-top-style: double;
+    border-bottom-style: solid;
 
 }
 
 #header {
     width: 100%;
-    background-color: #FCFCFC;    
 }
 
 #branding {   
@@ -96,7 +100,6 @@ article p{
     margin: auto;  
     width: 100%;
     max-width: 800px;
-    background-color: #FCFCFC;
 }    
 
 
