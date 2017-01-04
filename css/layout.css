@@ -119,8 +119,6 @@ article p{
     position: absolute;
     width: 100%;
     max-width: 800px;
-    background-color: rgba(254, 254, 254, 0.7);
-    box-shadow: 1px 1px 4px #191919;
 }
 
 article{
