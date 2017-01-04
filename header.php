@@ -141,5 +141,5 @@ console.log("Wie ist das wetter außerhalb von FuWa so? Wir sind im Schnee gefan
     </div>
     
     <div class="parallaxScrolling">
-	    <img id="raster" src="<?php echo(get_template_directory_uri()); ?>/Background.svg">
+	    <div id="colortransition"></div>
     </div>
