@@ -86,7 +86,7 @@ article p{
     
 }
 
-#DigitaleMedien{ 
+#PageTitle{ 
     position: absolute;
     top: 25px;
     max-width: 100px;
@@ -94,7 +94,7 @@ article p{
     color: #0F8957;
     text-decoration: none;
     font-size: 1.3em;
-    text-transform: uppercase;
+    font-family: 'Kingthings_Calligraphica_2-webfont', 'Luminari', 'serif';
 }
 
 #header {
