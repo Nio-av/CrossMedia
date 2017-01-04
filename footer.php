@@ -13,23 +13,19 @@
                     <img src="<?php echo(get_template_directory_uri()); ?>/Banner.svg">
                     <p>                
                           <script type="text/javascript">
-                                 /* bisZurFeier();
-
-                                  function bisZurFeier() {                                                     
+                                  SinceDate();
+                                  function SinceDate() {                                                     
                                         jetzt = new Date();
-                                        DM25 = new Date("Jun 13, 2015");
+                                        Postfaktisch = new Date("Sep 9, 2016");
                                         msProTag = 24 * 60 * 60 * 1000 ;
-                                        DifferenzTime = (DM25.getTime() - jetzt.getTime());
+                                        DifferenzTime = (jetzt.getTime() - Postfaktisch.getTime());
                                         e_daysLeft = DifferenzTime / msProTag;
-                                        TageBis = Math.floor(e_daysLeft); //floor = Abrunden 
-
+                                        DaysSince = Math.floor(e_daysLeft); //floor = Abrunden 
  
- document.write("Heute " + TageBis + " Tage bis zur Jubiläumsfeier!" );*/                        
+ document.write(DaysSince + " Tage im postfaktischen Zeitalter" );                        
                                       
-                                      document.write("Danke, dass Sie mit dabei waren!" );                        
-
-                                  /*} */
-
+                                      //document.write("Danke, dass Sie mit dabei waren!" );                        
+                                  }
                           </script>             
                     </p> 
             
