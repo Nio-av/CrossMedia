@@ -8,6 +8,13 @@
 */
 
 
+:root {
+    --main-menu-color: #bbbdbf;
+    --main-decoration-color: #cd1719;
+    --darkgray: #57585a;
+}
+
+
 
 /*Reset User Agent Styles
 * {-webkit-padding-start: 0px;}
@@ -36,18 +43,18 @@ ul {
 }
 
 * {
-font-family: 'Source Sans Pro', 'Helvetica', 'Segoe UI Light', 'Segoe UI', 'Lucida Grande', Verdana, Arial, sans-serif;
-font-size: 1.02em;
-color: #424242;
+    font-family: 'Source Sans Pro', 'Helvetica', 'Segoe UI Light', 'Segoe UI', 'Lucida Grande', Verdana, Arial, sans-serif;
+    font-size: 1.02em;
+    color: var(--darkgray);
 }
 
 a{
-    color: #E6007D;
+    color: var(--main-decoration-color);
     text-decoration: none;
 }
 
 h1, h2{
-    color: #0f8957;
+    color: var(--main-decoration-color);
     font-family: 'Source sans Pro', sans-serif;
 }
 
@@ -74,7 +81,7 @@ article p{
 #SubHeadline{
     
     font-family: 'Alegreya Sans SC', 'Helvetica light', 'Segoe UI Light', 'Segoe UI', 'Lucida Grande', 'Verdana', 'Arial', sans-serif;
-    color: #57585a;
+    color: var(--darkgray);
     text-align: right;
     border-color: var(--main-menu-color);
     border-bottom-style: solid;
@@ -89,7 +96,7 @@ article p{
     border-color: var(--main-menu-color);
     border-top-style: double;
     border-bottom-style: solid;
-    color: #57585a;
+    color: var(--darkgray);
 }
 
 
@@ -309,7 +316,7 @@ button{
 @media(max-width: 650px){
     #banner{
         width: 100%; 
-        background-color: #0F8957;
+        background-color: var(--darkgray);
         height: 40px;
     }  
         

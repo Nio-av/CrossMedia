@@ -1,7 +1,3 @@
-:root {
-  --main-menu-color: #bbbdbf;
-}
-
 nav a{
     font-family: 'Alegreya Sans SC', 'Helvetica light', 'Segoe UI Light', 'Segoe UI', 'Lucida Grande', 'Verdana', 'Arial', sans-serif;
 }
@@ -30,7 +26,7 @@ nav a{
 }
 
 .current_page_item a{
-    color: #b4d69f;
+    color: var(--main-decoration-color);
 }
 
 .menu-item:first-child{
@@ -87,13 +83,13 @@ nav a{
         z-index: 1;
 	    padding: 0px;
 	    margin: 0px;
-		background-color: #BAC4BB;
+		background-color: var(--main-menu-color);
 		list-style: none;
 	    float:left;   
 	}
     /*Auswahlbutton zum aufklappen */
     #menuebutton{
-		background-color: #0F8957;
+		background-color: var(--darkgray);
 	}
 	
 	
@@ -114,7 +110,7 @@ nav a{
     
     
 	#menuebutton:hover, #menuebutton:focus {
-		background-color: #e6007d;
+		background-color: var(--main-decoration-color);
 		transition: background 0.2s ease-out 0s;
         width: 100%;
 	}
@@ -140,7 +136,7 @@ nav a{
     }
     
 	#menu-top-menue li a:hover{
-	    background-color: #e6007d !important;
+	    background-color: var(--main-decoration-color) !important;
 	    transition: background 0.4s ease-out 0s;
 	}
     
