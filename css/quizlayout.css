@@ -1,0 +1,31 @@
+article .wpProQuiz_questionList{
+  background: none !important;
+  border: none !important;
+  width: 100%;
+  float: inherit;
+}
+article .wpProQuiz_questionListItem input{
+  width: 30px;
+}
+
+li .wpProQuiz_button, li .wpProQuiz_button:hover, div .wpProQuiz_button, div .wpProQuiz_button:hover{
+    width: 100% !important;
+    background: var(--main-decoration-color) !important;
+    border: inherit !important;
+    cursor: pointer;
+}
+
+
+li .wpProQuiz_response{
+    background: var(--main-menu-color) !important;
+    border: inherit !important;
+}
+
+
+div .wpProQuiz_resultTable{
+    border: inherit !important;
+}
+
+.wpProQuiz_resultTable td{
+    background: inherit;
+}
