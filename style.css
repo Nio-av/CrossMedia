@@ -3,15 +3,10 @@
  Theme URI: http://www.nio-av.de
  Description: Template für CrossMedia
  Author: Nicolas Tribukait
- Version: 0.1
+ Version: 0.2
  Author URL: http://www.nio-av.de
  */
 
 @import url(//fonts.googleapis.com/css?family=Alegreya+Sans+SC:400);
-/* Font: Daniel via http://www.dafont.com/de/daniel.font */
-@font-face { font-family: 'daniel'; src: url('PlugIns/fonts/daniel/daniel.ttf') format('truetype'); font-weight: regular}
-@font-face { font-family: 'daniel'; src: url('PlugIns/fonts/daniel/danielbd.ttf') format('truetype'); font-weight: bold;}
-@font-face { font-family: 'daniel black'; src: url('PlugIns/fonts/daniel/danielbk.ttf ') format('truetype');}
-
 
 @font-face { font-family: 'Kingthings_Calligraphica_2-webfont'; src: url('PlugIns/fonts/Kingthings-Calligraphica-fontfacekit/web_fonts/kingthingscalligraphica_regular_macroman/Kingthings_Calligraphica_2-webfont.ttf') format('truetype'); font-weight: regular}
