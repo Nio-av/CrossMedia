@@ -32,7 +32,7 @@ html, body {
 #colortransition{
     background: linear-gradient(to bottom, #efeff0 0%, #a4a7aa 100%);
     width: 100%;
-    height: 100%; 
+    height: 100%;
 }
 
 
@@ -62,7 +62,7 @@ h1, h2{
 h1{
     font-size: 1.3em;
     margin-top: 15px;
-    
+
 }
 
 h3{
@@ -79,16 +79,16 @@ article p{
 /* Headerelemente */
 
 #SubHeadline{
-    
+
     font-family: 'Alegreya Sans SC', 'Helvetica light', 'Segoe UI Light', 'Segoe UI', 'Lucida Grande', 'Verdana', 'Arial', sans-serif;
     color: var(--darkgray);
     text-align: right;
     border-color: var(--main-menu-color);
     border-bottom-style: solid;
-    
+
 }
 
-#PageTitle{ 
+#PageTitle{
     font-size: 20vh;
     font-family: 'Kingthings_Calligraphica_2-webfont', 'Luminari', 'serif';
     width: 100%;
@@ -104,12 +104,12 @@ article p{
     width: 100%;
 }
 
-#branding {   
+#branding {
     text-align: right;
-    margin: auto;  
+    margin: auto;
     width: 100%;
     max-width: 800px;
-}    
+}
 
 
 
@@ -119,7 +119,7 @@ article p{
 #wrapper{
     width: 100%;
     max-width: 800px;
-    margin: 0px auto;   
+    margin: 0px auto;
 }
 
 #vertical-center{
@@ -190,41 +190,7 @@ font-weight: 600;
     overflow: visible;
 }
 
-/* Video responsiv 
-.js-video {
-  height: 0;
-  padding-top: 25px;
-  padding-bottom: 67.5%;
-  margin-bottom: 10px;
-  position: relative;
-  overflow: hidden;
-}
- 
-.js-video.widescreen {
-  padding-bottom: 56.34%;
-}
- 
-.js-video.vimeo {
-  padding-top: 0;
-}
-
-.js-video embed, .js-video iframe, .js-video object, .js-video video, {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-}
- 
- (max-width: 600px){
-    #vertical-center{
-        width: 100%;
-        background-color: #C2E0C7;
-    }
-}
-
-*/
-
+/* Video responsiv */
 
 .responsiv-video {
     position: relative;
@@ -243,6 +209,7 @@ font-weight: 600;
     width: 100%;
     height: 100%;
 }
+
 
 .register-button {
  background-color: #ec619f;
@@ -271,8 +238,8 @@ button{
 
 .parallaxScrolling{
     position:fixed;
-    width:100%; 
-	height:100%; 
+    width:100%;
+	height:100%;
     top:0px;
     z-index: -1;
 }
@@ -283,26 +250,26 @@ button{
     .menu{
         width: 100%;
     }
-    
+
     #headernav{
-        width: 100%;    
+        width: 100%;
     }
 
     #background{
         display: none;
     }
-    
+
     #branding{
-        width: 100%;    
+        width: 100%;
     }
-    
-    
+
+
     #vertical-center{
-        width: 100%;        
+        width: 100%;
     }
-    
+
     #wrapper{
-        width: 100%; 
+        width: 100%;
     }
 }
 
@@ -315,15 +282,15 @@ button{
 
 @media(max-width: 650px){
     #banner{
-        width: 100%; 
+        width: 100%;
         background-color: var(--darkgray);
         height: 40px;
-    }  
-        
-    #banner img{
-        display: none;   
     }
-    
+
+    #banner img{
+        display: none;
+    }
+
     #banner p{
         display: block;
         margin-left: 0px;
@@ -331,14 +298,14 @@ button{
         top: -12px;
         overflow: auto;
     }
-    
-    
-    
+
+
+
     #footer{
-    margin-top: 80px;       
+    margin-top: 80px;
     }
-    
-    
+
+
 }
 
 @media(max-width: 400px){
@@ -351,23 +318,23 @@ button{
 /* Tabelle */
 
 
-tabled-view { 
-  width: 100%; 
-  border-collapse: collapse; 
+tabled-view {
+  width: 100%;
+  border-collapse: collapse;
 }
 /* Zebra striping */
-tr:nth-of-type(odd) { 
+tr:nth-of-type(odd) {
 
 }
 td, th{
-  text-align: left; 
-  padding: 6px; 
-  border: 1px solid #ccc; 
-  
+  text-align: left;
+  padding: 6px;
+  border: 1px solid #ccc;
+
 }
-td{ 
-  font-size: 0.9em;    
-  background: rgba(255, 255, 255, 0.5); 
+td{
+  font-size: 0.9em;
+  background: rgba(255, 255, 255, 0.5);
 
 
 }
@@ -381,8 +348,3 @@ td h3{
 td p{
   margin-bottom: 3px;
 }
-
-
-
-
-
