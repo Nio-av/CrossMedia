@@ -61,9 +61,6 @@
 
 
 
-<script src="<?php echo(get_template_directory_uri()); ?>/PlugIns/newsletter-ID.js"></script>
-
-
 <script type="text/javascript">
 //CSS Menü auch auf Touchdevices bedienbar machen
 $(document).ready( function(){
