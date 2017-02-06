@@ -8,5 +8,6 @@
  */
 
 @import url(//fonts.googleapis.com/css?family=Alegreya+Sans+SC:400);
+@import url(//fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic|Source+Code+Pro);
 
 @font-face { font-family: 'Kingthings_Calligraphica_2-webfont'; src: url('PlugIns/fonts/Kingthings-Calligraphica-fontfacekit/web_fonts/kingthingscalligraphica_regular_macroman/Kingthings_Calligraphica_2-webfont.ttf') format('truetype'); font-weight: regular}
