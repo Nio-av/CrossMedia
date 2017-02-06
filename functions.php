@@ -29,7 +29,7 @@ function posts_link_attributes() {
 }
 
 
-//EmbeddedVideo 
+//EmbeddedVideo
 /*
 function wp_embed_handler_video(){
     return 'class="EmbeddedVideo_ist_cool"';
@@ -49,7 +49,7 @@ add_filter('gallery_style', create_function('$a', 'return "
 
 
 //Widget-Area
-function DM25_widgets_init() {
+function widgets_init() {
     register_sidebar(array(
         'name'          => 'Footer',
         'id'            => 'Footer',
@@ -64,7 +64,7 @@ add_action( 'widgets_init', 'DM25_widgets_init' );
 
 
 
-DM25_widgets_init();
+widgets_init();
 
 
 ?>
