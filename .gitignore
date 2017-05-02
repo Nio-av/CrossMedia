@@ -1,4 +1,4 @@
-PlugIns/
-Fonts/
+PlugIns/*
+Fonts/*
 Logo*
 *.svg/
